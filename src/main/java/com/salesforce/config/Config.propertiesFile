@@ -1,0 +1,6 @@
+Url =https://urchtech-dev-ed.develop.my.salesforce.com/
+browserchrome = Chrome
+browserfire = Firefox
+browseredge = Edge
+ValidUsername =MaskedEmial
+ValidPassword =Maskedpassword

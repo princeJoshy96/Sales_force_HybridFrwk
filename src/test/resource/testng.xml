@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Salesforceproject Qa project Suite">
+  <listeners>
+  <listener class-name="com.salesforce.qa.listeners.Mylisteners"></listener>
+  </listeners>
+  <test  name="Salesforce Testcases">
+    <classes>
+   	  <class name="com.salesforce.qa.testcases.LoginTest"/>	
+      <class name="com.salesforce.qa.testcases.createAccountTest"/>
+      <class name="com.salesforce.qa.testcases.settingsTest"/>
+      <class name="com.salesforce.qa.testcases.UserdropDownTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
